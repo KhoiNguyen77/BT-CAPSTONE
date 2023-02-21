@@ -23,9 +23,9 @@
     <link rel="stylesheet" href="./style/index.css">
 </head>
 
-<body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow p-3 fixed-top">
+<body id="myBody">
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white shadow p-3 ">
             <div class="container justify-between">
                 <a class="navbar-brand fs-4" href="#">
                     <i class="fa fa-handshake"></i> <span class="fw-bolder fs-3"> Masterwork</span>
@@ -37,6 +37,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                        <li class="nav-item mx-2">
+                            <button class="btn" id="switchButton" title="Click to switch theme">
+                                <i class="far fa-moon"></i>
+                                <i class="far fa-sun"></i>
+                            </button>
+                        </li>
                         <li class="nav-item mx-2">
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
@@ -196,7 +202,89 @@
             </div>
         </div>
     </section>
-    <section class="solution"></section>
+    <section class="solution">
+        <div class="container text-center py-5 my-5">
+            <div class="solution_upper">
+                <h1 class="text-uppercase fs-6">WE are here for you</h1>
+                <p class="display-5 fw-bold">Explore Solutions</p>
+                <p class="w-75 text-secondary mx-auto mt-2 mb-5">Vestibulum ante ipsum primis in faucibus orci luctus et
+                    ultrices posuere cubilia Curae; Nulla mollis
+                    dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+            </div>
+            <div class="row mt-5">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card rounded-3 card-1 mt-4">
+                        <div class="img_holder position-relative">
+                            <img class="card-img-top"
+                                src="https://demo.w3layouts.com/demos_new/template_demo/03-03-2021/masterwork-liberty-demo_Free/423112365/web/assets/images/b1.jpg"
+                                alt="Card image cap">
+                            <p class="position-absolute top-0 fs-5 fw-bold">26 Jan, 2020</p>
+                        </div>
+                        <div class="card-body text-start">
+                            <p class="card-text my-2 border py-1 px-3 d-inline-block rounded-pill">Business</p>
+                            <a href="#" class="my-3 d-block">
+                                <h5 class="card-title text-dark fs-4">Corporate, Business & Digital Agency</h5>
+                            </a>
+                            <p class="card-text my-2 text-dark border-bottom pb-4">Lorem ipsum dolor sit amet nostrum ad
+                                minus libero fugiat molestiae
+                                ullam ipsam quas unde
+                                earum...</p>
+                            <a href="#" class="d-block mt-3 py-2">
+                                <span>Know More <i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card rounded-3 card-2  mt-4">
+                        <div class="img_holder position-relative">
+                            <img class="card-img-top"
+                                src="https://demo.w3layouts.com/demos_new/template_demo/03-03-2021/masterwork-liberty-demo_Free/423112365/web/assets/images/b7.jpg"
+                                alt="Card image cap">
+                            <p class="position-absolute top-0 fs-5 fw-bold">15 Apr, 2020</p>
+                        </div>
+                        <div class="card-body text-start">
+                            <p class="card-text my-2 border py-1 px-3 d-inline-block rounded-pill">Design</p>
+                            <a href="#" class="my-3 d-block">
+                                <h5 class="card-title text-dark fs-4">Corporate, Business & Digital Agency</h5>
+                            </a>
+                            <p class="card-text my-2 text-dark border-bottom pb-4">Lorem ipsum dolor sit amet nostrum ad
+                                minus libero fugiat molestiae
+                                ullam ipsam quas unde
+                                earum...</p>
+                            <a href="#" class="d-block mt-3 py-2">
+                                <span>Know More <i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 offset-lg-0 offset-md-3 col-lg-4">
+                    <div class="card rounded-3 card-3 mt-4">
+                        <div class="img_holder position-relative">
+                            <img class="card-img-top"
+                                src="https://demo.w3layouts.com/demos_new/template_demo/03-03-2021/masterwork-liberty-demo_Free/423112365/web/assets/images/b3.jpg"
+                                alt="Card image cap">
+                            <p class="position-absolute top-0 fs-5 fw-bold">25 Jun, 2020</p>
+                        </div>
+                        <div class="card-body text-start">
+                            <p class="card-text my-2 border py-1 px-3 d-inline-block rounded-pill">Industry</p>
+                            <a href="#" class="my-3 d-block">
+                                <h5 class="card-title text-dark fs-4">Corporate, Business & Digital Agency</h5>
+                            </a>
+                            <p class="card-text my-2 text-dark border-bottom pb-4">Lorem ipsum dolor sit amet nostrum ad
+                                minus libero fugiat molestiae
+                                ullam ipsam quas unde
+                                earum...</p>
+                            <a href="#" class="d-block mt-3 py-2">
+                                <span>Know More <i class="fa fa-arrow-right"></i></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-12 col-lg-4"></div> -->
+            </div>
+        </div>
+    </section>
 
 
 
@@ -226,5 +314,6 @@
 </script>
 <!-- Back to top -->
 <script src="./js/backtotop.js"></script>
-
+<!-- Main JS -->
+<script src="./js/index.js"></script>
 </html>
