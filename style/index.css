@@ -135,6 +135,7 @@ header nav .container .navbar-collapse ul li a:hover {
 .chooseUs {
     transition: all 1s;
 }
+
 .chooseUs .container h5 {
     color: rgb(245, 101, 125);
 }
@@ -157,6 +158,7 @@ header nav .container .navbar-collapse ul li a:hover {
 .about {
     transition: all 1s;
 }
+
 .about .container .aboutus_left h5 {
     color: rgb(245, 101, 125);
 }
@@ -218,6 +220,7 @@ header nav .container .navbar-collapse ul li a:hover {
 .solution {
     transition: all 1s;
 }
+
 .solution .container h1 {
     color: rgb(245, 101, 125);
     word-spacing: 2px;
@@ -285,8 +288,300 @@ header nav .container .navbar-collapse ul li a:hover {
     transform: translateX(5px);
 }
 
-/* Light theme */
-#myBody {
+
+
+/* Questions */
+.Questions {
+    background-color: #f7f9fc;
+}
+
+.Questions .container .header-section h6 {
+    color: rgb(245, 101, 125);
+    word-spacing: 2px;
+    letter-spacing: 2px;
+}
+
+
+.Questions .container .header-section p {
+    color: #7c8ead;
+}
+
+.Questions .row .accordion .accordion-item p {
+    color: #91949a;
+}
+
+.Questions .row .accordion .accordion-item h2 .accordion-button {
+    font-weight: 400;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: white !important;
+    box-shadow: none !important;
+}
+
+
+
+/* Projects */
+.projects .container h1 {
+    color: #dc4f72;
+}
+
+.projects .container .project_list ul .nav-item {
+    width: calc(100%/3);
+}
+
+.projects .container .project_list ul .nav-item .nav-link {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.projects .nav-link {
+    color: black;
+    border: none !important;
+    font-weight: bold;
+    border-bottom: 3px solid gray !important;
+}
+
+.projects .nav-link:hover {
+    color: black;
+}
+
+.projects .nav-tabs .nav-link.active {
+    color: #dc4f72;
+    background-color: white;
+    border-bottom: 3px solid #dc4f72 !important;
+}
+
+.tab-content .tab-pane .wrapper .row .col-lg-6 button {
+    border: 1px solid rgb(245, 101, 125) !important;
+    color: rgb(245, 101, 125) !important;
+    font-weight: 500;
+    transition: all 0.5s;
+    font-weight: 500;
+}
+
+.tab-content .tab-pane .wrapper .row .col-lg-6 button:hover {
+    background-color: rgb(245, 101, 125) !important;
+    color: white !important;
+}
+
+.tab-content .tab-pane .wrapper .row .col-lg-6 img {
+    transition: all 1s;
+}
+
+.tab-content .tab-pane .wrapper .row .col-lg-6 img:hover {
+    transform: translateY(-10px);
+}
+
+
+/* testimonials */
+.testimonials .container .owl-carousel .item .wrapper .img_wrapper img {
+    width: 100px !important;
+    height: 100px;
+    border: 3px solid #dc4f72;
+}
+
+.testimonials .container .header-section h6 {
+    color: #dc4f72;
+}
+
+.testimonials {
+    background-size: cover;
+    background-image: linear-gradient(to right, rgba(247, 249, 252, 0.77), rgba(247, 249, 252, 0.77)), url(https://demo.w3layouts.com/demos_new/template_demo/03-03-2021/masterwork-liberty-demo_Free/423112365/web/assets/images/b2.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.testimonials .owl-carousel .item .content_wrapper .name h4 {
+    color: #dc4f72;
+    font-weight: 400;
+}
+
+.testimonials .owl-carousel .item .content_wrapper .name p {
+    font-weight: 100;
+}
+
+.testimonials .owl-carousel .content_wrapper span {
+    position: absolute;
+    top: 7%;
+    left: 33%;
+    color: rgb(187, 180, 180);
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 40px;
+    height: 5px;
+    margin: 5px 7px;
+    background: white;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 0px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #dc4f72;
+}
+
+/* Build */
+
+.book_demo {
+    border: 1px solid #dc4f72;
+    color: #dc4f72;
+    transition: all 1s;
+}
+
+.book_demo:hover {
+    background-color: rgb(245, 101, 125) !important;
+    color: white !important;
+    border: 1px solid rgb(245, 101, 125);
+}
+
+.get_started {
+    background-color: rgb(245, 101, 125) !important;
+    color: white !important;
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+.get_started:hover {
+    background-color: rgb(207, 78, 99) !important;
+    border: none !important;
+}
+
+/* footer */
+footer .container .row .links a {
+    transition: all 0.5s;
+}
+
+footer .container .row .links a:hover {
+    color: rgb(207, 78, 99) !important;
+}
+
+footer .container .updates input {
+    height: 45px;
+}
+
+footer .container .updates button {
+    color: white;
+    background-color: #dc4f72 !important;
+}
+
+footer .container .updates {
+    box-shadow: -1px 5px 5px 5px rgba(0, 0, 0, 0.08) !important;
+}
+
+footer .container .updates p {
+    font-weight: 100;
+    width: 90%;
+}
+
+footer .container .copyright .copyright_right a {
+    transition: all 0.5s;
+}
+
+footer .container .copyright .copyright_right a:hover {
+    color: rgb(207, 78, 99) !important;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .chooseUs .container p {
+        width: 100% !important;
+    }
+
+    .readmore .container .wrapper {
+        width: 100% !important;
+    }
+
+    .solution .container .solution_upper p {
+        width: 100%;
+    }
+
+    .projects .container .project_upper p:last-of-type {
+        width: 100%;
+    }
+
+    .projects .container .project_list ul .nav-item .nav-link {
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .projects .tab-content {
+        margin: 15px 0 !important;
+        padding: 15px 0 !important;
+    }
+
+    .projects .container .project_list ul{
+     display: block !important;
+    }
+    .projects .container .project_list ul .nav-item {
+        width: 100%;
+    }
+
+    .projects .container .project_list ul .nav-item .nav-link{
+        width: 100%;
+        border: 1px solid black !important;
+        text-align: left;
+        font-size: 20px;
+        border-radius: 0 !important;
+    }
+
+    .owl-carousel .item .wrapper .content_wrapper p {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .owl-carousel .item .wrapper .content_wrapper .name h4 {
+        text-align: center;
+    }
+
+    .testimonials .owl-carousel .content_wrapper span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(187, 180, 180);
+        opacity: 0.5;
+    }
+
+    .testimonials .container .header-section p:first-of-type {
+        font-size: 30px;
+    }
+
+    .testimonials .container .header-section p:last-of-type {
+        width: 100%;
+    }
+
+    .build .container .header-section h3 {
+        width: 100% !important;
+        font-size: 30px !important;
+    }
+
+    .build .container .header-section p {
+        text-align: center;
+        width: 100% !important;
+        margin: 0 auto;
+    }
+
+    footer .container .copyright .copyright_right {
+        text-align: center !important;
+    }
+
+    footer .container .updates {
+        margin: 0 !important;
+    }
+
+    footer .container .copyright_left p {
+        font-size: 15px !important;
+    }
+}
+
+* Light theme */ #myBody {
     background-color: white;
 }
 
@@ -294,6 +589,7 @@ header nav .container .navbar-collapse ul li a:hover {
     background-color: white !important;
     transition: all 1s;
 }
+
 #switchButton:hover {
     background-color: black !important;
 }
@@ -319,6 +615,7 @@ header nav .container .navbar-collapse ul li a:hover {
     background-color: black !important;
     transition: all 1s;
 }
+
 .dark #switchButton:hover {
     background-color: white !important;
 }
@@ -345,25 +642,31 @@ header nav .container .navbar-collapse ul li a:hover {
     transition: all 0.5s;
     background-color: black !important;
 }
+
 .dark header nav .container .navbar-collapse ul li button:hover {
     color: #dc4f72 !important;
     background-color: white !important;
 }
+
 .dark .carousel {
     background-image: linear-gradient(#222, rgba(255, 255, 255, 0.92)), url(https://demo.w3layouts.com/demos_new/template_demo/03-03-2021/masterwork-liberty-demo_Free/423112365/web/assets/images/banner.jpg);
 }
+
 .dark .carousel .container .row .carousel_left h1 {
     color: white !important;
 }
+
 .dark .carousel .container .row .carousel_left button {
     background-color: #222 !important;
     color: white;
     transition: all 1s;
 }
+
 .dark .carousel .container .row .carousel_left button:hover {
     background-color: white !important;
     color: #dc4f72;
 }
+
 .dark .chooseUs {
     background-color: #222;
 }
@@ -388,22 +691,27 @@ header nav .container .navbar-collapse ul li a:hover {
 .dark .about .container .aboutus_left button {
     background-color: black !important;
 }
+
 .dark .about .container .aboutus_left button:hover {
     background-color: white !important;
     color: #dc4f72;
 }
+
 .dark .about .container .aboutus_right img {
-    transition: all 1s ;    
+    transition: all 1s;
 }
+
 .dark .about .container .aboutus_right img:hover {
-    box-shadow: -1px 4px 5px 2px rgba(128,128,128,0.4) !important;
+    box-shadow: -1px 4px 5px 2px rgba(128, 128, 128, 0.4) !important;
 }
+
 .dark .about .container .wrapper .row .col-12 .wrapper {
     background-color: black !important;
     transition: all 0.5s;
 }
+
 .dark .about .container .wrapper .row .col-12 .wrapper:hover {
-    box-shadow: -1px 4px 5px 2px rgba(128,128,128,0.4) !important;
+    box-shadow: -1px 4px 5px 2px rgba(128, 128, 128, 0.4) !important;
 }
 
 .dark .about .container .wrapper .row .col-12 .wrapper h1 {
@@ -434,21 +742,82 @@ header nav .container .navbar-collapse ul li a:hover {
     background-color: black;
     color: white;
 }
+
 .dark .card:hover {
-    box-shadow: -1px 4px 5px 2px rgba(128,128,128,0.4);
+    box-shadow: -1px 4px 5px 2px rgba(128, 128, 128, 0.4);
 }
 
+.dark .Questions {
+    background-color: #222 !important;
+}
 
-@media only screen and (max-width: 800px) {
-    .chooseUs .container p {
-        width: 100% !important;
-    }
+.dark .Questions .header-section h3 {
+    color: white !important;
+}
 
-    .readmore .container .wrapper {
-        width: 100% !important;
-    }
+.dark .projects .project_upper p:first-of-type {
+    color: white !important;
+}
 
-    .solution .container .solution_upper p {
-        width: 100%;
-    }
+.dark .projects .container .project_list ul .nav-item .nav-link {
+    background-color: #222;
+    color: white !important;
+}
+
+.dark .projects .container .project_list ul .nav-item .nav-link.active {
+    color: #dc4f72 !important;
+}
+
+.dark .tab-content .tab-pane .wrapper .row .col-lg-6 button {
+    border: 1px solid rgb(245, 101, 125) !important;
+    color: rgb(245, 101, 125) !important;
+    background-color: white;
+}
+
+.dark .tab-content .tab-pane .wrapper .row .col-lg-6 button:hover {
+    color: white !important;
+}
+
+.dark .tab-pane .wrapper .row h1 {
+    color: white !important;
+}
+
+.dark .testimonials {
+    background-image: linear-gradient(#222, rgba(255, 255, 255, 0.92)), url(https://demo.w3layouts.com/demos_new/template_demo/03-03-2021/masterwork-liberty-demo_Free/423112365/web/assets/images/b2.jpg);
+}
+
+.dark .testimonials .container .header-section p:first-of-type {
+    color: white !important;
+}
+
+.dark .owl-carousel .item {
+    background-color: #222 !important;
+}
+
+.dark .owl-carousel .item .content_wrapper p {
+    color: white;
+}
+
+.dark .build .header-section h3 {
+    color: white !important;
+}
+
+.dark footer .row h3 {
+    color: white !important;
+}
+
+.dark footer .container .updates {
+    background-color: white;
+}
+
+.dark footer .copyright_left p {
+    color: white !important;
+}
+
+.dark footer .copyright_left p span {
+    color: white !important;
+}
+
+.dark footer .copyright_right a {
+    color: white !important;
 }
